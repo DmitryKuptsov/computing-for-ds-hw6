@@ -1,0 +1,18 @@
+[project]
+name = "computing-for-ds-hw6"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "geopy>=2.4.1",
+    "pandas>=2.3.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
