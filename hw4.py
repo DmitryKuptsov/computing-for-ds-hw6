@@ -28,6 +28,7 @@ def count_simba(strings):
 # is an element of the input list and has as value its
 # day, month, and year.
 #
+import pandas as pd
 
 
 def get_day_month_year(dates):
